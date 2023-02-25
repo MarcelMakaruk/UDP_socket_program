@@ -1,9 +1,10 @@
-"""IS496: Computer Networks (Spring 2022)
-Programming Assignment 1
-Name and netid of each member:
-Member 1: jcarte39
-Member 2: mkhala6
-Member 3: mmaka4
+"""
+This is a UDP program that comprises of two parts:
+Part I: A simple UDP server and client where the server can successfully 1) establish the connection with 
+        the client, and 2) send a string (e.g., "Hello World") to the client
+Part II: A more complex program that involves cryptography for secure connection (using the pg1lib.py library)
+        and enables the client to choose which host does it want to connect to, on which port, and exactly
+        what the message will be. It also involves checksum to make sure that no packets were lost in the process.
 """
 
 import socket

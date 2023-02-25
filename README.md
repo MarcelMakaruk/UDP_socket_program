@@ -6,12 +6,12 @@ All included files are completed in, and run successfully using Python 3.8.
 Included files:
 
 
-> pg1lib.py - Library that contains four cryptography-related methods ( getPubKey(), encrypt(message, pubkey), 
+- pg1lib.py - Library that contains four cryptography-related methods ( getPubKey(), encrypt(message, pubkey), 
             decrypt(cipher), and checksum(data) ) necessary for successful use of the other two included files. 
             This library did not and will not require any altering to function as intended.
 
 
-> udpserver.py - Allows for completion of Part 1 (UDP Practice) when ran without arguments, and Part 2 
+- udpserver.py - Allows for completion of Part 1 (UDP Practice) when ran without arguments, and Part 2 
                 (Simple Secure UDP Program) when ran with arguments. In both scenarios, running this code will 
                 create a basic "server" on a machine, which listens for a connection from the "client" machine 
                 which is running udpclient.py. Depending on which arguments are provided, this program will 
@@ -25,7 +25,7 @@ To run this program for Part 2, run the same command-line string followed by a s
 [user@machine ~] $ python3 ./udpserver.py [port]
 
 
-> udpclient.py - Allows for completion of Part 1 (UDP Practice) when ran without arguments, and Part 2 (Simple 
+- udpclient.py - Allows for completion of Part 1 (UDP Practice) when ran without arguments, and Part 2 (Simple 
                 Secure UDP Program) when ran with arguments. In both scenarios, running this code will create a 
                 basic "client" on a machine, which then can send communications towards the machine running 
                 udpserver.py. Depending on the arguments provided, this program will interact with the server 

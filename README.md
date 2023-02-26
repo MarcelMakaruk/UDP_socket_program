@@ -1,4 +1,4 @@
-README.txt - Simple UDP Program
+Simple UDP Program
 --------------------------------------------------------------------
 All included files are completed in, and run successfully using Python 3.8.
 
@@ -19,10 +19,14 @@ Included files:
                 receiving and decrypting a message from the client.
 
 To run this program for Part 1, simply run the following command-line string on your machine after installing:
-            [user@machine ~] $ python3 ./udpserver.py
+
+[user@machine ~] $ python3 ./udpserver.py
+
 
 To run this program for Part 2, run the same command-line string followed by a specific port to listen on:
-            [user@machine ~] $ python3 ./udpserver.py [port]
+
+[user@machine ~] $ python3 ./udpserver.py [port]
+
 
 
 - udpclient.py - Allows for completion of Part 1 (UDP Practice) when ran without arguments, and Part 2 (Simple 
@@ -33,8 +37,12 @@ To run this program for Part 2, run the same command-line string followed by a s
                 message to be decrypted on the server-side.
 
 To run this program for Part 1, simply run the following command-line string on your machine after installing:
-            [user@machine ~] $ python3 ./udpclient.py
+
+[user@machine ~] $ python3 ./udpclient.py
+
 
 To run this program for Part 2, run the same command-line string followed by a specific hostname, port, 
 and test message:
-            [user@machine ~] $ python3 ./udpclient.py [hostname] [port] [test message]
+
+[user@machine ~] $ python3 ./udpclient.py [hostname] [port] [test message]
+
